@@ -1,0 +1,77 @@
+body{
+    background: rgba(215, 14, 233, 0.8);
+    font-size: 120%;
+    
+}
+
+#header{
+    font-size: 300%;
+    background: rgba(24, 162, 226, 0.8);
+    border-radius: 25px;
+}
+
+#mainContainer{
+    background: rgba(255, 152, 17, 0.8);
+    font-size: 130%;
+}
+
+
+#rubberducky{
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 400px;
+    max-width: 400px;
+    
+   
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    
+    content: url("../images/ducky.jpg"); 
+}
+
+#uniduck{
+    content: url("../images/unicornduck.jpeg");
+    user-select: none;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 400px;
+    max-width: 400px;
+    
+    
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#kareemabduljadduck{
+    content: url("../images/Basketball-Rubber-Duck.jpg");
+    min-height: 100px;
+    min-width: 100px;  
+    max-width: 400px;
+    max-width: 400px;
+    
+     
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#mobyduck{
+    content: url("../images/mobyDuck.jpg");
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 400px;
+    max-width: 400px;
+    
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}   
