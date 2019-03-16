@@ -1,26 +1,30 @@
 body{
-    background: rgba(215, 14, 233, 0.8);
+    background: rgba(255, 155, 0, 0.8);
+    padding: 0;
     font-size: 120%;
     
 }
 
 #header{
+    min-width: 90%;
+    min-height: 8%;
     font-size: 300%;
     background: rgba(24, 162, 226, 0.8);
     border-radius: 25px;
+    margin:0;
 }
 
 #mainContainer{
-    background: rgba(255, 152, 17, 0.8);
+    background: rgba(255, 152, 17, 0.0);
     font-size: 130%;
 }
 
 
 #rubberducky{
-    min-height: 100px;
-    min-width: 100px;
-    max-width: 400px;
-    max-width: 400px;
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 150px;
+    max-width: 150px;
     
    
     user-select: none;
@@ -35,10 +39,10 @@ body{
 #uniduck{
     content: url("../images/unicornduck.jpeg");
     user-select: none;
-    min-height: 100px;
-    min-width: 100px;
-    max-width: 400px;
-    max-width: 400px;
+    min-height: 50px;
+    min-width: 50px;  
+    max-width: 150px;
+    max-width: 150px;
     
     
     -khtml-user-select: none;
@@ -49,10 +53,10 @@ body{
 
 #kareemabduljadduck{
     content: url("../images/Basketball-Rubber-Duck.jpg");
-    min-height: 100px;
-    min-width: 100px;  
-    max-width: 400px;
-    max-width: 400px;
+    min-height: 50px;
+    min-width: 50px;  
+    max-width: 150px;
+    max-width: 150px;
     
      
     user-select: none;
@@ -64,10 +68,12 @@ body{
 
 #mobyduck{
     content: url("../images/mobyDuck.jpg");
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 400px;
-    max-width: 400px;
+    min-width: 50px;
+    min-height: 50px;
+
+    
+    max-width: 150px;
+    max-width: 150px;
     
     user-select: none;
     -khtml-user-select: none;
@@ -75,3 +81,22 @@ body{
     -moz-user-select: none;
     -webkit-user-select: none;
 }   
+.row{
+    margin:0px;
+}
+
+#firstrow{
+    background-color: rgba(255, 50, 155, 0.6);
+
+}
+#goalNumber{
+    background-color: rgba(42, 206, 27, 0.8);
+}
+
+#yourPoints{
+    background-color: rgba(47, 255, 245, 0.8);
+}
+
+#state{
+    background-color: rgba(215, 14, 233, 0.8);
+}
